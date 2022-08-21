@@ -4,7 +4,7 @@ const postSchema =mongoose.Schema({
     userId:{type:String,required:true},
     desc:String,
     likes:[],
-    Image:String,
+    image:String,
 },
 {timestamps:true}
 );
